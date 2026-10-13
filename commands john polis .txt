@@ -47,3 +47,4 @@ $ git reset --soft HEAD~1
 remove the previous commit 
 
 
+$ git push 
