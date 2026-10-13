@@ -1,0 +1,49 @@
+SSH key already done before 
+
+$ git config --global init.defaultbranch main
+changing branch name to main 
+
+$ git config -- list 
+list the current configurations
+
+$ git init
+repo initialization
+
+
+$ git status
+get the current status of the repo
+
+$ git add .
+adding the new files to the staging area
+
+$ git commit -m"initial commit"
+first commit 
+
+git remote add origin https://github.com/John19110/lab1-VC.git
+link the local to the remote 
+
+git push -u origin main
+push the local to the remote 
+
+git add .
+add the changes 
+
+$ git log --oneline
+148e19b (HEAD -> main) change the file name to CV
+0d87e0d (origin/main) initial commit
+
+git commit --amend -m "update script (reworded)"
+amend the changes 
+
+(changes made "Skill: bad skill")
+
+$ git add .
+add the changes 
+
+git commit -m"skills"
+commit it 
+
+$ git reset --soft HEAD~1
+remove the previous commit 
+
+
